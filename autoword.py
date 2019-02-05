@@ -4,7 +4,9 @@ import csv
 
 document = Document()
 
-with open('music.csv', newline='') as f:
+csv = input("Enter name of CSV file (music.csv): ")
+
+with open(csv, newline='') as f:
 
 	csv_reader = csv.reader(f)
 
